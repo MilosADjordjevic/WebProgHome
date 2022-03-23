@@ -25,11 +25,17 @@ body {
     text-align: center; 
   }
 
+  img{
+    border: 4px;
+    border-color: white;
+    border-style: groove;
+  }
+
   button {
       background-color: white;
       border: none;
       color: black;
-      padding: 2% 3%;
+      padding: 8px 10px;
       border-radius: 52%;
       text-align: center;
       text-decoration: none;
@@ -37,19 +43,27 @@ body {
       font-size: 120%;
       display: block;
       margin: 1%;
+      border-bottom: 12px;
 
       transition-duration: 0.4s;
 
       /*width: 100%;*/
-      
+      width: 80%;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-left: 34%;
-      margin-right: 34%;
-      height: 1%;
+      /*margin-left: 34%;
+      margin-right: 34%;*/
+      height: 20%;
   
   }
   button:hover{
     background-color: red;
+  }
+
+  .flex-parent {
+    display: flex;
+  }
+  .flex-child {
+    flex: 1;
   }
